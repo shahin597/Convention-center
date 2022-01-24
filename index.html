@@ -19,9 +19,9 @@
 
 
         <!-- As a heading -->
-        <nav class="navbar navbar-light bg-light">
+        <nav class="navbar navbar-light fixed-top bg-light">
             <div class="container">
-                <span class="navbar-brand mb-0 h1">Dhaka Convention Center</span>
+                <span class="navbar-brand  mb-0 h1">Dhaka Convention Center</span>
             </div>
         </nav>
         <!-- end-nav -->
@@ -42,8 +42,7 @@
                     <div class="carousel-caption  d-md-block">
                         <h5>5000 Square Feet Space 400 Guests Capacity</h5>
                         <p>We ready for: wedding/reception/gaye-holud</p>
-                        <a href="https://www.diccbd.com/" class="btn btn-info" role="button">Link
-                            Button</a>
+                        <a href="https://www.diccbd.com/" class="btn btn-info" role="button">Book Now</a>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -51,6 +50,7 @@
                     <div class="carousel-caption  d-md-block">
                         <h5>10,000 Square Feet Space 1000 Guests Capacity Panorama Hall-01</h5>
                         <p>We ready for: wedding/reception/gaye-holud</p>
+                        <a href="https://www.diccbd.com/" class="btn btn-info" role="button">Book Now</a>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -58,6 +58,7 @@
                     <div class="carousel-caption  d-md-block">
                         <h5>7 Square Feet Space 500 Guests Capacity</h5>
                         <p>We ready for: wedding/reception/gaye-holud</p>
+                        <a href="https://www.diccbd.com/" class="btn btn-info" role="button">Book Now</a>
                     </div>
                 </div>
             </div>
@@ -72,6 +73,7 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+        <!-- toast -->
 
 
 
@@ -79,11 +81,15 @@
     <main>
         <!-- package-section -->
         <section class="container my-5">
+            <div class="alert w-25  alert-warning alert-dismissible fade show" role="alert">
+                <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
             <h1 class="text-center">Our Package </h1>
             <!-- package -->
-            <div class="row row-cols-1 row-cols-lg-4 g-4">
+            <div class="row row-cols-1  row-cols-lg-4 g-4">
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card mt-5 border-0 shadow-lg  h-100">
 
                         <div class="card-body">
                             <h5 class="card-title">$300</h5>
@@ -100,13 +106,14 @@
                         </div>
 
                         <div class="mt-3 mb-3 ">
-                            <button type="button" class="btn btn-info text-white rounded-pill w-100">Light</button>
+                            <button type="button" class="btn btn-info text-white rounded-pill w-100">Choose
+                                Plan</button>
                         </div>
 
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card mt-5 border-0 shadow-lg   h-100">
 
                         <div class="card-body">
                             <h5 class="card-title">$300</h5>
@@ -123,14 +130,17 @@
                         </div>
 
                         <div class="mt-3 mb-3 ">
-                            <button type="button" class="btn btn-info text-white rounded-pill w-100">Light</button>
+                            <button type="button" class="btn btn-info text-white rounded-pill w-100">Choose
+                                Plan</button>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card bg-primary h-100">
+                    <div class="card shadow-lg border-0  bg-primary h-100">
 
-                        <div class="card-body ">
+                        <div class="card-body position-relative">
+                            <span
+                                class="position-absolute top-0  translate-middle px-2 end-0 bg-danger border border-light rounded-pill">Hot</span>
                             <h5 class="card-title">$300</h5>
                             <p class="card-text">Business fair</p>
                             <p><small>For most businesses event
@@ -145,12 +155,13 @@
                         </div>
 
                         <div class="mt-3 mb-3 ">
-                            <button type="button" class="btn btn-info text-white rounded-pill w-100">Light</button>
+                            <button type="button" class="btn btn-info text-white rounded-pill w-100">Choose
+                                Plan</button>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card mt-5 shadow-lg border-0 h-100">
 
                         <div class="card-body">
                             <h5 class="card-title">$300</h5>
@@ -167,7 +178,8 @@
                         </div>
 
                         <div class="mt-3 mb-3 ">
-                            <button type="button" class="btn btn-info text-white rounded-pill w-100">Light</button>
+                            <button type="button" class="btn btn-info text-white rounded-pill w-100">Choose
+                                Plan</button>
                         </div>
                     </div>
                 </div>
@@ -200,14 +212,15 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseTwo" aria-expanded="false"
                                     aria-controls="flush-collapseTwo">
-                                    Accordion Item #2
+                                    How early do we need to start planning an event?
                                 </button>
                             </h2>
                             <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the second item's
-                                    accordion body. Let's imagine this being filled with some actual content.</div>
+                                <div class="accordion-body">The time to plan events varies from a few weeks to years. If
+                                    your event is small, you can probably put it together in a month or two. A good rule
+                                    of thumb for any major event, from weddings to a company holiday party, is six
+                                    months</div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -215,16 +228,20 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseThree" aria-expanded="false"
                                     aria-controls="flush-collapseThree">
-                                    Accordion Item #3
+                                    What is your refund and cancellation policy?
                                 </button>
                             </h2>
                             <div id="flush-collapseThree" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the third item's
-                                    accordion body. Nothing more exciting happening here in terms of content, but just
-                                    filling up the space to make it look, at least at first glance, a bit more
-                                    representative of how this would look in a real-world application.</div>
+                                <div class="accordion-body">In the event of a forced cancellation due to government
+                                    restrictions such as a pandemic or other circumstance outside of the booking party’s
+                                    control, a full deposit will be provided if the booking falls within the imposed
+                                    restricted period. If the booking falls outside the imposed restricted period, then
+                                    the following conditions apply. If the booking is a previously postponed booking,
+                                    then no penalty will apply if the group chooses to postpone it once more. A
+                                    cancellation decision made by the booking party, which is not covered under a
+                                    government imposed restriction or by our own facility management, will be bound by
+                                    the above policy.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -232,16 +249,15 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseThree" aria-expanded="false"
                                     aria-controls="flush-collapseThree">
-                                    Accordion Item #3
+                                    How do you keep budgets on track?
                                 </button>
                             </h2>
                             <div id="flush-collapseThree" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the third item's
-                                    accordion body. Nothing more exciting happening here in terms of content, but just
-                                    filling up the space to make it look, at least at first glance, a bit more
-                                    representative of how this would look in a real-world application.</div>
+                                <div class="accordion-body">Review any and every expense. From day one note down exactly
+                                    what you plan to spend or need to spend on your event.
+                                    Setting goals and targets and
+                                    Discuss your plan of action regularly.</div>
                             </div>
                         </div>
                     </div>
@@ -276,13 +292,13 @@
                 <div class="col-lg-7">
                     <h2>We Love to Hear From You</h2>
                     <p>Please mail or fill contact form and we will be happy to assist you.</p>
-                    <div class="d-flex flex-column pb-1">
+                    <div class="d-flex flex-column mt-2 pb-1">
                         <input class="p-2 mb-2" type="text" placeholder="Name">
                         <input class="p-2 mb-2" type="tel" placeholder="your no">
                         <input class="p-2 mb-2" type="email" placeholder="enter mail">
                         <input class="p-5 mb-2" type="text" placeholder="Your Message">
                         <div>
-                            <button class="btn btn-info ">Submit</button>
+                            <button class="btn btn-info ">Submit Now</button>
                         </div>
                     </div>
                 </div>
