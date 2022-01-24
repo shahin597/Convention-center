@@ -4,3 +4,11 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+@media (max-width:575px) {
+    .height-img {
+        height: 300px;
+    }
+
+
+}
