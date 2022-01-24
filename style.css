@@ -5,10 +5,20 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* responsive-mobile device */
 @media (max-width:575px) {
     .height-img {
         height: 300px;
     }
 
+    .toast-size {
+        width: 100% !important;
+    }
 
+
+}
+
+/* slider-bg-text-color */
+.text-color {
+    background-color: rgba(87, 56, 52, 0.692);
 }
